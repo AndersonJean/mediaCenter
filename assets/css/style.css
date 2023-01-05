@@ -4,6 +4,7 @@
     --Color-font-hover : #ffff;
     --option-two : #0079c7;
     --option-three : #2b4c99;
+    --Color-widget: #000;
 }
 
 *{
@@ -132,4 +133,35 @@ nav .active a, nav a:hover{
     text-decoration: none;
     font-size: 13px;
     padding: 5px;
+}
+
+#content_general{
+    display: flex;
+    justify-content: center;
+}
+
+#content_general .content_news{
+    flex: 2;
+}
+
+#content_general aside{
+    flex: 1;
+    
+    
+}
+
+.widget_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_title_text{
+    color: var(--Color-widget);
+    font-size: 21px;
+}
+
+.widget_title_bar{
+    width: 50px;
+    height: 3px;
+    background-color: var(--option-two);
 }
