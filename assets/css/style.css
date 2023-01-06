@@ -165,3 +165,62 @@ nav .active a, nav a:hover{
     height: 3px;
     background-color: var(--option-two);
 }
+
+article{
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+
+}
+
+article a{
+    text-decoration: none;
+}
+
+article .news_data{
+    display: flex;
+}
+
+article .news_posted_at{
+    background-color: var(--option-three);
+    color: var(--Color-font-hover);
+    font-size: 12px;
+    padding: 10px;
+}
+
+article .news_comments{
+    background-color: var(--Color-hover-primary);
+    color: var(--Color-font-hover);
+    font-size: 12px;
+    padding: 10px;
+    margin-left: 2px;
+}
+
+.news_thumbnail{
+    margin-top: 30px;
+}
+
+.news_thumbnail img{
+    width: 100%;
+    height: auto;
+}
+
+article .news_title{
+    margin-block: 25px;
+    font-size: 25px;
+    color: var(--Color-widget);
+}
+
+article .news_resume{
+    text-align: justify;
+    font-size: 14px;
+    color: var(--Color-font-primary);
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
