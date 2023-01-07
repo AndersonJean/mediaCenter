@@ -5,6 +5,7 @@
     --option-two : #0079c7;
     --option-three : #2b4c99;
     --Color-widget: #000;
+    --footer-background:#1e1e1e;
 }
 
 *{
@@ -222,5 +223,38 @@ article .news_resume{
 .flex{
     display: flex;
     flex-wrap: wrap;
+}
+
+footer{
+    background-color: var(--footer-background);
+    display: flex;
+    justify-content: center;
+}
+
+.footer_infor_one, .footer_infor_two, .footer_infor_three{
+    flex: 1;
+    color: var(--Color-font-hover);
+    padding: 20px;
+}
+
+.footer_infor_one{
+    background-color: var(--Color-hover-primary);
+}
+
+.footer_infor_two{
+    background-color: var(--option-two);
+}
+
+.footer_infor_three{
+    background-color: var(--option-three);
+}
+
+.footer_infor_title{
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+.footer_infor_desc{
+    font-size: 16px;
 }
 
